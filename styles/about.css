@@ -22,3 +22,10 @@
 #theme {
     text-align: center;
 }
+
+p {
+    width: 400px;
+    height: auto;
+    margin: 100px;
+    text-align: center;
+}
