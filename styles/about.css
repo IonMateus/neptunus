@@ -1,0 +1,49 @@
+:root {
+    --light-shades: #e8e8e8;
+    --light-accent: #348EFF;
+    --main-brand: #215EAB;
+    --dark-accent:#13345F;
+    --dark-shades: #181818;
+}
+
+#body-wrapper {
+    background-color: var(--dark-accent);
+    color: white;
+}
+
+#btn1 {
+    background-color: var(--light-accent);
+}
+
+#btn1:hover {
+    background-color: var(--light-shades);
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+}
+
+#theme {
+    text-align: center;
+}
+
+p {
+    width: 400px;
+    height: auto;
+    margin: 100px;
+    text-align: center;
+    color: white;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ocean-img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
