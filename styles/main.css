@@ -77,3 +77,18 @@ a{
         transform: scale(1);
     }
 }
+
+#aboutProject{
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: var(--dark-shades);
+    border: 3px solid var(--light-shades);
+    margin: 10px;
+    padding: 10px;
+}footer a{
+    margin: 30px;
+}
