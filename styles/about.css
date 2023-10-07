@@ -6,6 +6,11 @@
     --dark-shades: #181818;
 }
 
+#body-wrapper {
+    background-color: var(--dark-accent);
+    color: white;
+}
+
 #btn1 {
     background-color: var(--light-accent);
 }
@@ -28,4 +33,17 @@ p {
     height: auto;
     margin: 100px;
     text-align: center;
+    color: white;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ocean-img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
 }
