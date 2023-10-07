@@ -1,0 +1,46 @@
+
+:root{
+    --main-color: #0059ff;
+    --black:#202020;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: var(--black);
+    color: white;
+}
+
+header{
+    background-color:var(--black);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}header h1{
+    font-size: 30px;
+}header a{
+    font-size: 20px;
+    margin: 30px;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url(https://i.gifer.com/embedded/download/UQw9.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    font-size: xxx-large;
+}
