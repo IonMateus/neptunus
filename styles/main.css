@@ -27,7 +27,7 @@ header{
     position: sticky;
     top: 0;
 }header h1{
-    font-size: 30px;
+    font-size: 35px;
 }header a{
     font-size: 20px;
     margin: 30px;
@@ -78,17 +78,23 @@ a{
 }
 
 #aboutProject{
-    margin: 20px;
+    margin: 70px;
     font-size: 20px;
 }
 
 
 footer{
-    background-color: var(--dark-shades);
-    border: 3px solid var(--light-shades);
-    margin: 10px;
+    background-color: var(--dark-accent);
     padding: 10px;
+    display: flex;   
+}footer a{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}footer img{
+    margin-right: 130px;
 }
-footer a{
-    margin: 30px;
+
+b{
+    color: var(--light-accent);
 }
