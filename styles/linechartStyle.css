@@ -1,0 +1,55 @@
+
+:root{
+    --main-color: #0059ff;
+    --black:#202020;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: var(--black);
+    color: white;
+}
+
+header{
+    background-color:var(--black);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}header h1{
+    font-size: 30px;
+}header a{
+    font-size: 20px;
+    margin: 30px;
+    text-decoration: none;
+}
+
+#lineContainer{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+}
+
+.infoCard{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #202020;
+    background-color: #0059ff;
+}
+
+#linha{
+    width: 3px;
+    height: 100vh;
+    background-color: red;
+    position: absolute;
+    justify-self: center;
+}
