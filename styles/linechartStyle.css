@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 
 :root{
     --main-color: #0059ff;
@@ -12,7 +16,7 @@
 
 body{
     background-color: var(--black);
-    color: white;
+    color: black;
 }
 
 header{
@@ -23,6 +27,7 @@ header{
     padding: 15px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }header h1{
     font-size: 30px;
 }header a{
@@ -31,25 +36,120 @@ header{
     text-decoration: none;
 }
 
+
+
+
 #lineContainer{
+    display: none;
+
     background-color: white;
     width: 100vw;
-    height: 100vh;
+    height: 300vh;
     display: flex;
-    justify-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .infoCard{
-    width: 300px;
-    height: 300px;
+    aspect-ratio: 10/9;
+    height: 20vh;
     border: 1px solid #202020;
-    background-color: #0059ff;
+    background-color: #ffffff29;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+
+    transition: all 0.8s ease;
 }
 
+.infoCard:hover{
+    background-color: #f5f5f5;
+    height: 24vh;
+}
+
+.infoCard:hover h1{
+    font-size: 5vh;
+}
+
+.infoCard h1{
+    color: #202020;
+    font-size: 4vh;
+    text-align: center;
+    transition: all ease 1s;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#overWater{
+    background: linear-gradient(to bottom, rgb(7 82 231), rgb(242, 255, 254));
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+#infoAtmosphere {
+    left: 63%;
+    top: 12%;
+}
+
+#infoHumans{
+    left: 2%;
+    top: 50%;
+}
+
+#infoCoast{
+    left: 28%;
+    top: 69%;
+}
+
+#ocean{
+    background: linear-gradient(to bottom, rgb(17 154 227), rgb(4 72 169));
+    width: 100%;
+    height: 80%;
+}
+
+#infoPhytoplankton{
+    left: 16%;
+    top: 109%;
+}
+
+#infoPhotosynthesis{
+    left: 59%;
+    top: 123%;
+}
+
+#infoEcossystem{
+    left: 16%;
+    top: 160%;
+}
+
+#infoWhales{
+    left: 59%;
+    top: 189%;
+}
+
+#infoDolphin{
+    left: 16%;
+    top: 227%;
+}
+
+
+#infoExtremeDepthsLife{
+    left: 59%;
+    top: 280%;
+}
+
+
 #linha{
-    width: 3px;
-    height: 100vh;
-    background-color: red;
+    width: 0.3%;
+    height: 300vh;
+    background-color: #ccf2ff;
     position: absolute;
     justify-self: center;
 }
+
