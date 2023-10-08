@@ -6,6 +6,10 @@
     --dark-shades:#181818;    
 }
 
+ header a {
+    text-decoration: none;
+ }
+
 *{
     margin: 0px;
     padding: 0px;
@@ -18,7 +22,7 @@ body{
     overflow-x: hidden;
 }
 
-header{
+header {
     background-color:var(--dark-shades);
     color: white;
     display: flex;
@@ -26,9 +30,13 @@ header{
     padding: 15px;
     position: sticky;
     top: 0;
-}header h1{
+}
+
+header h1 {
     font-size: 35px;
-}header a{
+}
+
+header a {
     font-size: 20px;
     margin: 30px;
 }
@@ -49,7 +57,10 @@ header{
 
 a{
     color: var(--light-shades);
-}a:hover{color: var(--light-accent);}
+}
+a:hover {
+    color: var(--light-accent);
+}
 
 #btnExplore {
     width: 50px;
