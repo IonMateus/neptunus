@@ -98,16 +98,19 @@ header a:hover{
 #infoAtmosphere {
     left: 63%;
     top: 12%;
+    cursor: url(https://cdn.custom-cursor.com/db/5540/32/cute-dolphin-cursor.png) , default !important;
 }
 
 #infoHumans{
     left: 2%;
     top: 50%;
+    cursor: url(https://cdn.custom-cursor.com/db/5540/32/cute-dolphin-cursor.png) , default !important;
 }
 
 #infoCoast{
     left: 28%;
     top: 69%;
+    cursor: url(https://cdn.custom-cursor.com/db/5540/32/cute-dolphin-cursor.png) , default !important;
 }
 
 #ocean{
@@ -119,16 +122,19 @@ header a:hover{
 #infoPhytoplankton{
     left: 16%;
     top: 109%;
+    cursor: url(https://cdn.custom-cursor.com/db/5540/32/cute-dolphin-cursor.png) , default !important;
 }
 
 #infoPhotosynthesis{
     left: 59%;
     top: 123%;
+    cursor: url(https://cdn.custom-cursor.com/db/5540/32/cute-dolphin-cursor.png) , default !important;
 }
 
 #infoEcossystem{
     left: 16%;
     top: 160%;
+    cursor: url(https://cdn.custom-cursor.com/db/5540/32/cute-dolphin-cursor.png) , default !important;
 }
 
 #infoWhales{
@@ -147,6 +153,7 @@ header a:hover{
 #infoExtremeDepthsLife{
     left: 59%;
     top: 280%;
+    cursor: url(https://cdn.custom-cursor.com/db/5540/32/cute-dolphin-cursor.png) , default !important;
 }
 
 
