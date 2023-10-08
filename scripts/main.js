@@ -1,4 +1,4 @@
-let isAudio = true
+let isAudio = false
 
 
 
@@ -11,7 +11,6 @@ function startAnimation() {
         window.location.href = "pages/lineChart.html";
     }, 2000);
 }
-
 
 
 function playAudio(){
