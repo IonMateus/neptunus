@@ -9,6 +9,7 @@
 #body-wrapper {
     background-color: var(--dark-accent);
     color: white;
+    height: 100vh;
 }
 
 #btn1 {
