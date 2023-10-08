@@ -6,6 +6,10 @@
     --dark-shades: #181818;
 }
 
+body{
+    background-color: var(--dark-accent);
+}
+
 #nav-wrapper {
     background-color: #181818;
 }
@@ -31,15 +35,18 @@
 }
 
 #cards {
-    margin: 30px;
-    box-shadow: 7.5px 7.5px 15.5px 0px #c1dfe1;
+    margin: 20px;
+    box-shadow: 7.5px 7.5px 15.5px 0px #3e3e3e;
+    transition: all 0.1s ease;
 }
 
 #cards:hover {
-    cursor: pointer;
-    transform: translate(20px, -20px);
+    transform: translate(10px, -10px);
 }
+
+h1{color: var(--light-accent);margin: 10px;}
 
 #body-wrapper{
     background-color: #13345F;
 }
+

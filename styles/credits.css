@@ -6,10 +6,20 @@
     --dark-shades: #181818;
 }
 
+header{
+    box-shadow: 0 0 10px ;
+}
+
+
 #btn1 {
     background-color: var(--light-accent);
 }
 
 #btn1:hover {
     background-color: var(--light-shades);
+}
+
+body{
+    background-color: #13345F;
+    color: white;
 }

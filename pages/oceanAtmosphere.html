@@ -4,40 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ocean Regulation of the Atmosphere</title>
-    <link rel="stylesheet" href="./styles/oceanAtmosphere.css">
-    <link rel="stylesheet" href="./styles/apresentations.css"
+    <link rel="stylesheet" href="../styles/oceanAtmosphere.css">
+    <link rel="stylesheet" href="../styles/apresentations.css"
 </head>
 <body>
-    <header>
+    <header style="box-shadow: 0 0 10px black;">
         <h1>Neptunus + logo</h1>
     
         <div style="margin-top: auto;margin-bottom:auto;">
-            <a href="#">Home</a>
-            <a href="#">Ocean</a>
-            <a href="#">About Etc</a>
+            <a href="../index.html">Home</a>
+            <a href="./linechart.html">Ocean</a>
+            <a href="./about.html">About</a>
         </div>
     </header>
 
-    <h1>Ocean Regulation of the Atmosphere</h1>
+    <h1 style="color: #0059ff;">Ocean Regulation of the Atmosphere</h1>
 
     <div id="initialBox">
-        <p id="initialText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, nesciunt! Hic, aut. Repellat minima reprehenderit veritatis consectetur porro, cumque illo aut rem voluptate excepturi quas sapiente, alias adipisci iste quibusdam!Lorem</p>
+        <p id="initialText">
+            Although you might not notice it, oceans play a huge role in regulating our atmosphere. 
+	First of all, they’re a big source of humidity: when moist air evaporates from the ocean, it is incorporated into the atmosphere as water vapor and makes the air we breathe less dry
+	That moist air can also condensate and form clouds, which allows precipitation, a very important phenomenon to us humans and to the environment as a whole.
+	Oceans also hold a bunch of photosynthetic organisms, which contribute to the regulation of the atmosphere’s gases. However, this topic is addressed more deeply in the “marine photosynthesis” section.  
+
+        </p>
         <div id="InitialBoxImg">
-            <img src="./imgs/atmosphere.png" id="InitialImg">
+            <img src="../imgs/A2021216.RussiaSmoke.small.jpg" id="InitialImg">
         </div>
     </div>
 
     <div id="secondBox">
         <div id="secondaryImgBox">
-            <img src="./imgs/atmosphere.png" id="secondaryImg">
+            <img src="../imgs/A2021263.USWestCoast.crop.small.jpg" id="secondaryImg">
         </div>
 
         <p id="secondaryText">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae vel ad rem aspernatur a esse quos officiis veritatis harum autem. Corporis, aut quis! Atque, dolorum beatae. Nulla explicabo ratione ea.lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi voluptate odio, voluptatum nisi nulla accusamus facere fugiat sequi dicta deserunt tempora earum recusandae consequuntur officiis repellat eius illum pariatur. Deleniti.
+            Ocean currents and their characteristics can also impact the climate (and therefore the atmosphere): ocean currents are big volumes of water that move through the ocean, carrying different aspects of temperature, humidity, etc. These aspects affect the air above the water portion, also affecting the climate factors that we perceive.
+Another impact of the ocean on the atmosphere are sea and continental breezes, that change the wind patterns. 
         </p>
     </div>
 
-
+    
+    <button onclick="window.location.href = './lineChart.html'" id="backBtn">Back</button>
 
 </body>
 </html>
