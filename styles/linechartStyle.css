@@ -5,6 +5,7 @@ a{
 :root{
     --main-color: #0059ff;
     --black:#202020;
+    cursor: url(https://cdn.custom-cursor.com/db/5539/32/cute-dolphin-pointer.png)   , pointer !important;
 }
 
 *{
@@ -28,21 +29,27 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
-}header h1{
+}
+
+header h1{
     font-size: 30px;
-}header a{
+}
+
+header a{
     font-size: 20px;
     margin: 30px;
     text-decoration: none;
     color: white;
-}header a:hover{color: #0059ff;}
+}
+header a:hover{
+    color: #0059ff;
+}
 
 
 
 
 #lineContainer{
     display: none;
-
     background-color: white;
     width: 100vw;
     height: 300vh;
@@ -127,11 +134,13 @@ header{
 #infoWhales{
     left: 59%;
     top: 189%;
+    cursor: url(https://cdn.custom-cursor.com/db/18313/32/cute-purple-whale-pointer.png) , pointer !important;
 }
 
 #infoDolphin{
     left: 16%;
     top: 227%;
+    cursor: url(https://cdn.custom-cursor.com/db/5540/32/cute-dolphin-cursor.png) , default !important;
 }
 
 
