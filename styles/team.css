@@ -36,7 +36,7 @@ body{
 
 #cards {
     margin: 20px;
-    box-shadow: 7.5px 7.5px 15.5px 0px #3e3e3e;
+    box-shadow: 7.5px 7.5px 15.5px 0px #c1dfe1;
     transition: all 0.1s ease;
 }
 
@@ -44,9 +44,12 @@ body{
     transform: translate(10px, -10px);
 }
 
-h1{color: var(--light-accent);margin: 10px;}
+h1 {
+    color: var(--light-accent);
+    margin: 10px;
+}
 
-#body-wrapper{
+#body-wrapper {
     background-color: #13345F;
 }
 
