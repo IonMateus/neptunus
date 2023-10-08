@@ -10,10 +10,28 @@ body{
     background-color: var(--dark-accent);
 }
 
+#nav-wrapper {
+    background-color: #181818;
+}
+
+#btn1 {
+    background-color: var(--light-accent);
+}
+
+#btn1:hover {
+    background-color: var(--light-shades);
+}
+
+#title {
+    color: #e8e8e8;
+    text-align: center;
+    margin-top: 30px;
+}
 
 #card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #cards {
@@ -27,3 +45,8 @@ body{
 }
 
 h1{color: var(--light-accent);margin: 10px;}
+
+#body-wrapper{
+    background-color: #13345F;
+}
+
