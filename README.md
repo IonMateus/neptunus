@@ -7,6 +7,5 @@ Space Apps Challenge Project - 2023
 * Ana
 * Daniel
 * Ion
-* Miguel
 * Pedro
 * Sofia
