@@ -34,7 +34,8 @@ header{
     font-size: 20px;
     margin: 30px;
     text-decoration: none;
-}
+    color: white;
+}header a:hover{color: #0059ff;}
 
 
 
