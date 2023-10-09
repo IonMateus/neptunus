@@ -17,10 +17,13 @@
 }
 
 #questions {
+    text-align: center;
     background-color: #348EFF;
-    width: 400px;
+    width: 50vw;
     height: auto;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 20px;
     box-shadow: 7.5px 7.5px 15.5px 0px #c1dfe1;
 }
