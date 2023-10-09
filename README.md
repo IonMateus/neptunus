@@ -11,3 +11,6 @@ Our project is an educational website about the importance of the ocean in our l
 * Ion
 * Pedro
 * Sofia
+
+# YouTube Vídeo
+<a href="https://youtu.be/QWO7ufSW9Oo" target="_blank">https://youtu.be/QWO7ufSW9Oo</a>
