@@ -6,7 +6,11 @@ let checkAnswer = () => {
                 QuantasCorretas += 1
             }
         }
-        document.querySelector("#result").innerHTML=QuantasCorretas
+        if(QuantasCorretas < 5){
+            document.querySelector("#result").innerHTML=`You just got ${QuantasCorretas} questions right &#128542`
+        } else{
+            document.querySelector("#result").innerHTML=`Well done! You got ${QuantasCorretas} questions right &#128512`
+        }
         markCorrectAnswers()
         
 }
